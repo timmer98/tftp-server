@@ -1,0 +1,4 @@
+enum TftpMode {
+    NetAscii,
+    Octet,
+}

@@ -1,3 +1,10 @@
+mod data;
+mod ack;
+mod write_request;
+mod mode;
+mod error;
+mod read_request;
+
 use std::io::{Read, Write};
 use std::net::{TcpListener, TcpStream, UdpSocket};
 use std::io::prelude;
